@@ -1,8 +1,14 @@
 {
   "openapi": "3.0.1",
+  "servers": [
+    {
+      "url": "https://knowledge-base5.p.rapidapi.com"
+    }
+  ],
   "info": {
     "title": "KnowledgeBase",
-    "version": "1.0"
+    "version": "1.0",
+    "url": "https://rapidapi.com/supertoha/api/knowledge-base5"
   },
   "paths": {
     "/AddWebSite": {
